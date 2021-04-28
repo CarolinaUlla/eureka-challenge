@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPERHEROE DESCRIPTION</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+</head>
+<body>
+
+    <section class="bloque-modos"> 
+        <button class="day" id="day">HEROE MODE</button>
+        <button class="night" id="night">VILLIAN MODE</button>
+    </section>
+
+    <form hidden>
+        <div>
+            <div class="one">
+                <input type="text" name="heroName" id="heroName">
+            </div>
+            <div class="two">
+                <input type="submit" id="submit" value="BUSCAR">
+            </div>
+        </div>
+    </form>
+    
+    <p> <span id="name" class="nombre" hidden></span></p>
+    <p id="nombre-2pag"></p>
+    <p id="foto-click" class="foto-click" hidden></p>
+    <p id="descripcion" class="text-descrip"></p>
+
+    <div class="four">
+        <div id="pic" class="foto-click"hidden></div>
+    </div>
+    <div class="five" id="five"></div>
+    <div class="six" id="six">
+        <div id="pic-grande" class="pic-grande"></div>
+    </div>
+    <div class="wrap-button">
+        <button id="volver-atras" class="volver-atras">CLICK AQUI PARA DESCUBRIR OTRO</button>
+    </div>
+
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/descripcion.js"></script>
+</body>
+</html>

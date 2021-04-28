@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARVEL SEARCH</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+</head>
+<body>
+
+    <section class="bloque-modos"> 
+        <button class="day" id="day">HEROE MODE</button>
+        <button class="night" id="night">VILLIAN MODE</button>
+    </section>
+    
+    <h1 class="title">BIENVENIDO AL UNIVERSO MARVEL! </h1>
+    <h2 class="sub-title"> Descubre más información sobre tus superhéroes favoritos </h2>
+    <form>
+        <div class="one">
+            <input type="text" name="heroName" id="heroName" class="heroName" placeholder="Escribe el nombre del superhéroe..."> <br>
+        </div>
+        <div class="two">
+            <input type="submit" id="submit" value="BUSCAR">
+        </div>
+    </form>
+
+    <div class="wrapper">
+        <div class="three" id="three">
+            <p> <span id="name" class="nombre"></span></p>
+            <p id="foto-click" class="foto-click"></p>
+            <p id="descripcion" class="text-descrip" hidden></p>
+            <div id="error" class="error"></div>
+        </div>
+        
+        <div class="four">
+            <div id="pic" class="foto-click"></div>
+            <div id="pic-grande" hidden></div>
+        </div>
+        <div class="five" id="five"></div>
+    </div>
+</div>
+
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

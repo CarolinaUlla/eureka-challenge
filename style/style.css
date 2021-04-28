@@ -1,0 +1,156 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #EFF3F4; }
+  body.dark {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: black; }
+
+.bloque-modos {
+  display: grid; }
+
+.day, .night {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold; }
+
+.day {
+  background-color: red;
+  color: black; }
+
+.night {
+  background-color: black;
+  color: red; }
+
+.title {
+  font-family: 'Roboto Condensed Bold', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: black; }
+  .dark .title {
+    color: white; }
+
+.sub-title {
+  text-align: center; }
+  .dark .sub-title {
+    color: white; }
+
+.one {
+  margin-top: 20px;
+  display: grid; }
+
+.heroName {
+  grid-column: 2;
+  width: 340px;
+  height: 40px; }
+
+.two {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); }
+
+#submit {
+  grid-column: 4;
+  background-color: red;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px 32px; }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(30px, auto); }
+
+.three {
+  grid-column: 4;
+  grid-row: 1;
+  text-align: center; }
+
+.four {
+  grid-column: 4;
+  grid-row: 2;
+  color: #4a4a4a;
+  max-width: 100%;
+  position: relative; }
+  .four:hover {
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    transition: all .2s ease-in-out; }
+
+.five {
+  grid-column: 4;
+  grid-row: 2; }
+
+.nombre {
+  font-size: 40px;
+  text-decoration: overline; }
+  .dark .nombre {
+    color: white; }
+
+.nombre-2pag {
+  text-align: center;
+  font-size: 70px;
+  text-decoration: underline; }
+  .dark .nombre-2pag {
+    color: white; }
+
+.foto-click {
+  text-align: center;
+  color: black; }
+  .dark .foto-click {
+    color: white; }
+
+.text-descrip {
+  color: black;
+  text-align: center;
+  font-size: 30px; }
+  .dark .text-descrip {
+    color: white; }
+
+.six {
+  display: grid; }
+
+.pic-grande {
+  grid-column: 2;
+  max-width: 100%; }
+  .pic-grande img {
+    width: 334px;
+    height: 370px; }
+
+.contenedor-error {
+  display: grid; }
+
+.error {
+  grid-column: 2;
+  color: black; }
+  .dark .error {
+    color: white; }
+
+.wrap-button {
+  display: grid; }
+
+.volver-atras {
+  margin-top: 20px;
+  border: none;
+  color: red;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: black; }
+  .dark .volver-atras {
+    background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
