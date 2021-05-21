@@ -1,5 +1,4 @@
 # eureka-challenge
-Proyecto para la empresa Eureka Labs. Generador de búsquedas de superhéroes, para obtener su imagen (en diversos tamaños) a partir de llamadas a la API de Marvel.
-La web cuenta con la posibilidad de elegir light o dark mode, y es responsive, se adapta a cualquier pantalla.
+Project developed for Eureka Labs. Superhero search generator, to obtain their image (in different sizes) from calls to the Marvel API. The web has the possibility of choosing light or dark mode, and it is responsive, it adapts to any screen.
 
-DOMINIO: https://carolinaulla.github.io/eureka-challenge/
+URL: https://carolinaulla.github.io/eureka-challenge/
